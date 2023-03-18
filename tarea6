@@ -1,0 +1,41 @@
+#include "iostream"
+#include "conio.h"
+#include "cstdlib"
+#include "time.h"
+
+//Emerson Jimenez Carne: 9989-21-20811//
+
+
+
+
+using namespace std;
+int main()
+
+{
+    int i,j;
+    
+    srand(time(NULL));
+    
+    int matriz [5][5];
+    
+    for (i=0; i<5; i++)
+    {
+    	cout<<"\n";
+    	for (j=0; j<5; i++)
+    	{
+    		matriz[5][5] = rand() % 10;
+    		cout<< matriz [5][5] << " " ;
+    		
+     	}
+     	cout<< endl;
+     	
+	}
+	cout <<"*********************" << endl;
+	
+
+    
+    
+	 system("pause");
+	 
+    return 0;
+}
